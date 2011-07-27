@@ -18,7 +18,7 @@ function dmCkEditorCreateOverlay(editor, link) {
     width: $editor.width() + 'px',
     backgroundColor: 'white',
     opacity: 0.5,
-    zIndex: 1000,
+    zIndex: 30000000,
     display: 'block'
   }).find('input:first').dmDroppableInput(function() {
     $.ajax({
