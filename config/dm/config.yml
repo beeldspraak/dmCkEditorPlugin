@@ -3,7 +3,7 @@ default:
   ckeditor:
     config:
       toolbar:
-        - ['Maximize']
+        - ['Maximize', 'Source', 'Templates']
         - ['Format', 'Bold', 'Italic','Strike','Blockquote', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink']
         - ['PasteText','PasteFromWord']
         - ['Undo','Redo']
